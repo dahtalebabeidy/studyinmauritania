@@ -13,7 +13,8 @@ class VilleController extends Controller
     }
 
   public function show(Ville $ville){
-  return view('Villes.Show',['ville'=> $ville]);
+    $ville->load('universites');
+    return view('Villes.Show', ['ville' => $ville]);
   }
    
 }

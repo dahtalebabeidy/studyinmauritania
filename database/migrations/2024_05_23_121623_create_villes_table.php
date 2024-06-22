@@ -9,20 +9,18 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('villes', function (Blueprint $table) {
             $table->id();
             $table->string('NomVille');
             $table->mediumText('Imag')->nullable();
+            $table->text('description')->nullable(); // Add the description column
             $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
-    public function down(): void
+    public function down()
     {
         Schema::dropIfExists('villes');
     }
