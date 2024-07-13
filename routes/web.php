@@ -1,12 +1,12 @@
 <?php
 
-use App\Http\Controllers\StatistiqueController;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\VilleController;
 use App\Http\Controllers\UniversiteController;
 use App\Http\Controllers\DepartementController;
+use App\Http\Controllers\ProgrammeController;
 use App\Http\Controllers\CommentController;
-use Illuminate\Support\Facades\Route;
-use Spatie\FlareClient\View;
+use App\Http\Controllers\StatistiqueController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +22,6 @@ use Spatie\FlareClient\View;
 Route::get('/', function () {
     return view('welcome');
 });
-
 
 Route::get('/villes',[VilleController::class,'index'])->name('Villes.index');
 Route::get('/villes/{ville}',[VilleController::class,'show'])->name('Villes.show');

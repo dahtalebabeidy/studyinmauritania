@@ -1,4 +1,6 @@
 @extends('Layout.app')
+@section('title', 'Departement')
+
 
 @section('Content')
     <section id="Villes">
@@ -18,7 +20,7 @@
                 <div class="programme-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <h3 class="programme-title">{{ $programme->NomProgramme }}</h3>
                     <div class="programme-description">
-                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">{{ $programme->Description }}</p>
+                        <p class="pr" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">{{ $programme->Description }}</p>
                     </div>
                 </div>
             @endforeach

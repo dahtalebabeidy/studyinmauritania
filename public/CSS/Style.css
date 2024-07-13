@@ -137,6 +137,7 @@ header .logo a span {
     color: black;
     font-size: 20px;
     margin-bottom: 30px;
+    text-align: justify;
 
 }
 
@@ -655,4 +656,12 @@ footer p span {
 
 .comment-form button:hover {
     background-color: #26b7b3;
+}
+
+.mauritania {
+    color: #29d9d5;
+}
+
+.pr {
+    text-align: justify;
 }

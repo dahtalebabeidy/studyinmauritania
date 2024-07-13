@@ -1,4 +1,5 @@
 @extends('Layout/app')
+@section('title', 'Ville')
       
 @section('Content')
 
@@ -9,7 +10,7 @@
     </section>
 
     <section id="Villes">
-        <h1 class="title"> Information sur la ville {{$ville->NomVille}}</h1>
+        <h1 class="title">la ville {{$ville->NomVille}}</h1>
         <div class="right">
             <ul>
                 @foreach(explode("\n", $ville->description) as $paragraph)

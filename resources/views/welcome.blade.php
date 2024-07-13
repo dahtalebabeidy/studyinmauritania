@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-           <h1>Study in mauritania</h1>
+           <h1>Study in <span class="mauritania">mauritania</span></h1>
            <p>
                 Bienvenue sur notre portail dédié à l'éducation et à l'étude en Mauritanie ! Ce pays offre un environnement unique pour les étudiants qui souhaitent poursuivre leurs études supérieures. Avec une richesse culturelle, une histoire fascinante et des opportunités éducatives diverses, la Mauritanie est un lieu d'apprentissage stimulant.
             </p>

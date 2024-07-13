@@ -21,7 +21,6 @@
             <li><a href="{{route('Statistiques.indexNktt')}}">Statistiques</a></li>
             <li><a href="{{route('Villes.index')}}">Les Villes</a></li>
         </ul>
-        <a href="" class="btn-login">LOGIN</a>
         <div class="responsive-menu"></div>
     </header>
 
